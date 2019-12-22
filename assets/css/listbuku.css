@@ -1,0 +1,114 @@
+.bg{
+    position: relative;
+    top: -70px;
+    background-image: url("http://localhost/backend/assets/img/10730.jpg");
+    background-size: cover;
+    min-height: 70px;
+    /* navbar */
+}
+.navbar-brand{
+    font-family: candara;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+.navbar{
+    z-index: 2;
+    position: relative;
+}
+
+.tombol{
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+h3{
+    text-align: center;
+    font-family:Hobo Std;
+    width: 200px;
+    border-bottom: 2px solid black
+}
+
+h4{
+    font-size: 16px;
+    font-weight: 400;
+}
+.row{
+    position: relative;
+    z-index: 1;
+}
+span{
+    font-weight: 800;
+}
+
+
+img{
+    width:150px;
+float:left;
+margin-right:25px;
+}
+
+.listbuku{
+    margin-bottom: 20px;
+}
+
+.container h3{
+    margin: 50px auto;
+}
+
+.footer{
+    font-family:Hobo Std;
+    margin-top: 90px;
+    height:50px;
+    line-height:50px;
+    color:black !important;
+    text-align: center;
+    width:100%;
+    background: linear-gradient(to left, rgba(251, 201, 158, 1), rgba(246, 167, 108, 1) );
+}
+
+/* desktop */
+
+@media (min-width: 992px) {
+    .nav-link2{
+        text-transform: uppercase;
+        margin-right: 30px;
+        color: black !important;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    }
+    h4{
+        font-family: Raleway;
+        font-style: italic;
+        font-size: 30px;
+        
+    }
+    
+    img{
+        width:150px;
+    float:left;
+    margin-right:25px;
+    }
+    .nav-link2:hover::after{
+        content: '. . .';
+        margin-top: -20px;
+        text-align: center;
+        display: block;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -30px;
+    }
+    .listbuku{
+        margin-bottom: 30px;
+    }
+    
+    .tombol{
+        text-transform: uppercase;
+        border-radius: 40px;
+    }
+    .overlay{
+        position: relative;
+        top:-140px;
+        z-index: 1;
+        min-height: 70px;
+        background: linear-gradient(to left, rgba(251, 201, 158, 0.5), rgba(246, 167, 108, 0) );
+    }
+}
